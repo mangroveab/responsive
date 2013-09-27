@@ -1,0 +1,16 @@
+/* Base */
+body 						{margin: 20px; background-color: #5FBBAC; color: #EEEBDD; font-family: sans-serif; overflow-x: scroll;}
+h2 							{margin: 0 0 20px 0; text-align: center;}
+
+/* Layout */
+.wrapper 					{width: 8000px; padding: 0px 100px;}
+.col						{display: inline-block; vertical-align: middle; margin: 0 50px 20px 0;}
+
+/* Frames */
+.frame						{background-size: cover; background-position: center center;}
+.frame-iphone-portrait		{padding: 110px; background-image: url('img/iphone-portrait.svg');}
+.frame-iphone-landscape		{padding: 110px; background-image: url('img/iphone-landscape.svg');}
+.frame-ipad-portrait		{padding: 110px; background-image: url('img/ipad-portrait.svg');}
+.frame-ipad-landscape		{padding: 110px; background-image: url('img/ipad-landscape.svg');}
+.frame-macbook				{padding: 110px 280px 300px; background-image: url('img/macbook.svg');}
+.frame-imac					{padding: 100px 60px 500px; background-image: url('img/imac.svg');}
